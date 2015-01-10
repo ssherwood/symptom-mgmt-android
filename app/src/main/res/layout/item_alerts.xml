@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11/11/2014 12:30 pm"
+        android:id="@+id/alertTimeTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The patient reported more than 12 hours of sever pain."
+        android:id="@+id/alertDescriptionTextView"
+        android:layout_below="@+id/alertTimeTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

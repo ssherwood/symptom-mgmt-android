@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="mobile.symptom.androidcapstone.coursera.org.symptommanagement.PatientSummaryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:id="@+id/patientNameLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medical Id: "
+        android:id="@+id/patientMedicalIdLabel"
+        android:layout_below="@+id/patientNameLabel"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="111-11-1111"
+        android:id="@+id/patientMedicalIdView"
+        android:layout_below="@+id/patientNameLabel"
+        android:layout_toEndOf="@+id/patientMedicalIdLabel" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/patientImageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:minWidth="100dp"
+        android:minHeight="100dp"
+        android:src="@drawable/john_doe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth: "
+        android:id="@+id/dateOfBirthLabel"
+        android:layout_below="@+id/patientMedicalIdLabel"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01/01/2014"
+        android:id="@+id/dateOfBirthView"
+        android:layout_alignTop="@+id/dateOfBirthLabel"
+        android:layout_toEndOf="@+id/dateOfBirthLabel" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/patientAlertsListView"
+        tools:listitem="@layout/item_alerts"
+        android:layout_below="@+id/patientImageView"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

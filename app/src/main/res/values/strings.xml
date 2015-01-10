@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Symptom Management</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_login">Login</string>
+    <string name="title_activity_list_patients">My Patients</string>
+    <string name="title_activity_patient_summary">Patient Summary</string>
+    <string name="title_activity_checkin">My Check-in</string>
+    <string name="title_activity_launch">Symptom Management</string>
+    <string name="title_activity_checkin_eating">My Check-in</string>
+    <string name="hello_world">Hello</string>
+    <string name="title_activity_patient_home">Symptom Management</string>
+    <string name="action_logout">Logout</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="pref_reminder1">First Reminder</string>
+    <string name="pref_reminder2">Second Reminder</string>
+    <string name="pref_reminder3">Third Reminder</string>
+    <string name="pref_reminder4">Fourth Reminder</string>
+    <string name="title_activity_checkin_medicine">CheckinMedicineActivity</string>
+    <string name="title_activity_patient_medicine">Patient Medicine</string>
+    <string name="action_patient_medicine">Manage Medicines</string>
+    <string name="title_activity_patient_checkin">Patient Check-ins</string>
+    <string name="action_patient_checkins">Patient Check-ins</string>
+    <string name="title_activity_view_video">ViewVideoActivity</string>
+
+</resources>

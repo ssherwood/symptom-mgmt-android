@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mobile.symptom.androidcapstone.coursera.org.symptommanagement.PatientSummaryActivity">
+
+    <item android:id="@+id/action_patient_checkins" android:title="@string/action_patient_checkins"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <item android:id="@+id/action_patient_medicine" android:title="@string/action_patient_medicine"
+        android:orderInCategory="200" android:showAsAction="never" />
+
+</menu>
